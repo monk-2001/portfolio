@@ -2998,7 +2998,7 @@ input[type="button"].btn-block {
 .navbar-brand {
   display: inline-block;
   padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
+  padding-bottom: 0.15rem;
   margin-right: 1rem;
   font-size: 1.25rem;
   line-height: inherit;
@@ -5655,7 +5655,12 @@ button.bg-dark:focus {
 
 .mb-5,
 .my-5 {
-  margin-bottom: 3rem;
+    margin-bottom: 3rem;
+    text-align: left;
+}
+
+.mb-6 {
+    margin-bottom: 1rem;
     text-align: left;
 }
 
@@ -7350,7 +7355,7 @@ form .row:first-child .floating-label-form-group {
   background-color: #00477f; }
 
 #brandImage {
-  height: 2rem; }
+  height: 3rem; }
 
 .portfolio {
   padding-top: 6rem;
